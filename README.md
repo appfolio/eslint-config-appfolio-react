@@ -3,7 +3,7 @@
 This package provides Appfolio's base JavaScript for React/ES6/2015 as an extensible shared config.
 
 This is based on [eslint-config-appfolio-base](https://www.npmjs.com/package/eslint-config-appfolio-base)
-[eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb),
+and [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb),
 with a few adjustments to warnings to minimize noise, and to encourage useful comments.
 
 ## Usage
