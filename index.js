@@ -8,6 +8,10 @@ module.exports = {
   },
   rules: {
     'class-methods-use-this': 0,
+    'jsx-a11y/anchor-is-valid': [ 'error', {
+      'components': ['Link'],
+      'specialLink': ['to']
+    }],
     'react/forbid-prop-types': 0,
     'react/jsx-filename-extension': 0,
     'react/prefer-stateless-function': 0,
