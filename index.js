@@ -19,7 +19,10 @@ module.exports = {
     'react/require-default-props': 0,
     'react/sort-comp': [1, {
       'order': [
+        'propTypes',
+        'defaultProps',
         'static-methods',
+        'state', 
         'constructor',
         'everything-else',
         'lifecycle',

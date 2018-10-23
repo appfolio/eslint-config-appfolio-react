@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Appfolio, Inc.",
   "license": "MIT",
+  "scripts": {
+    "postpublish": "git push --no-verify && git push --tags"
+  },
   "dependencies": {
     "eslint": "^4.9.0",
     "eslint-config-airbnb": "^16.1.0",
