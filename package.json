@@ -9,8 +9,8 @@
     "postpublish": "git push --no-verify && git push --tags"
   },
   "dependencies": {
-    "eslint": "^4.9.0",
-    "eslint-config-airbnb": "^16.1.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-config-appfolio-base": "^1.0.3",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
