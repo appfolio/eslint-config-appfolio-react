@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-appfolio-react",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Appfolio ESLint React config",
   "main": "index.js",
   "author": "Appfolio, Inc.",
