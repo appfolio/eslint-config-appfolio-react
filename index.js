@@ -9,6 +9,11 @@ module.exports = {
       components: ['Link'],
       specialLink: ['to']
     }],
+
+    // Relaxes the prefer-default-export rule. We often have services / apis
+    // that start with a single named export which should not be the `default`.
+    'import/prefer-default-export': 0,
+
     'react/forbid-prop-types': 0,
     'react/jsx-filename-extension': 0,
     'react/prefer-stateless-function': 0,
