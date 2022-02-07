@@ -1,20 +1,21 @@
 {
-  "name": "eslint-config-appfolio-react",
+  "name": "@appfolio/eslint-config-appfolio-react",
   "version": "1.2.0",
   "description": "Appfolio ESLint React config",
   "main": "index.js",
   "author": "Appfolio, Inc.",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "lint": "eslint .",
-    "postpublish": "git push --no-verify && git push --tags"
+    "publish:npm": "npm publish --ignore-scripts --tag ${TAG:='latest'} --access public --@appfolio:registry='https://registry.npmjs.org'",
+    "postpublish": "npm run publish:npm && git push --no-verify && git push --tags"
   },
   "dependencies": {
-    "eslint": "^4.9.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-appfolio-base": "^1.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0"
+    "@appfolio/eslint-config-appfolio-base": "^2.0.0",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb": "^19.0.4"
   }
 }
