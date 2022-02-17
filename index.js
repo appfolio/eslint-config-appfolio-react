@@ -5,6 +5,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'jsx-a11y/anchor-is-valid': ['error', { components: ['Link'], specialLink: ['to'] }],
     'react/forbid-prop-types': 'off',
+    'react/function-component-definition': ['off'],
     'react/jsx-filename-extension': 'off',
     'react/prefer-stateless-function': 'off',
     'react/prop-types': 'warn',
@@ -15,6 +16,7 @@ module.exports = {
         order: [
           'propTypes',
           'defaultProps',
+          'static-variables',
           'static-methods',
           'state',
           'constructor',
