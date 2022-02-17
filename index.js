@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ['airbnb', '@appfolio/eslint-config-appfolio-base'],
+  extends: [
+    'airbnb',
+    'plugin:chai-friendly/recommended',
+    '@appfolio/eslint-config-appfolio-base'
+  ],
+  plugins: ['chai-friendly'],
   env: { browser: true },
   rules: {
     'class-methods-use-this': 'off',
