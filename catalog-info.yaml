@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  title: eslint-config-appfolio-react
+  description: This catalog entity description has been auto-generated
+  tags: []
+  annotations:
+    appfolio.com/package-location: url:https://github.com/appfolio/eslint-config-appfolio-react/pkgs/npm/eslint-config-appfolio-react
+    appfolio.com/package-type: npm
+  name: eslint-config-appfolio-react
+spec:
+  type: library
+  lifecycle: deprecated
+  owner: boyz2dev
