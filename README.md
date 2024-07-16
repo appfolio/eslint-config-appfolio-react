@@ -1,5 +1,7 @@
 # Appfolio React ESLint config
 
+## ** This is config is now deprecated, please use https://github.com/appfolio/front-end-libs/tree/main/packages/eslint-config-appfolio ([package](https://github.com/appfolio/front-end-libs/pkgs/npm/eslint-config-appfolio)) **
+
 This package provides Appfolio's base JavaScript for React/ES6/2015 as an extensible shared config.
 
 This is based on [@appfolio/eslint-config-appfolio-base](https://www.npmjs.com/package/@appfolio/eslint-config-appfolio-base)
